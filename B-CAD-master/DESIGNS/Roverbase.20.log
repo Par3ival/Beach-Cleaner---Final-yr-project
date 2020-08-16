@@ -1,0 +1,49 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Roverbase.prt
+
+
+Writing part: C:\Users\eljw\AppData\Local\Temp\eljw3CEC8B33bz3q.prt
+
+Elapsed time   :    0 minutes,  1 seconds
+Actual CPU Time:    0 minutes,  1 seconds
+
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Fri Feb 07 12:22:11 2020
+INFO-
+STATUS-		Converting C:\Users\eljw\AppData\Local\Temp\eljw3CEC8B33bz3q.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\eljw\AppData\Local\Temp\eljw3CEC8B33bz3q.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	52
+SUMMARY-	Circle ...................................:	4
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	56
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Roverbase.20.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Circle ...................................:	4
+SUMMARY-	Line .....................................:	52
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	62
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Fri Feb 07 12:22:12 2020
+INFO-		Translation CPU time: 0 m, 0 sINFO-

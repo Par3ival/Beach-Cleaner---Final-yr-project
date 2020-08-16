@@ -1,0 +1,401 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V11.0
+! INFO-      
+! INFO-     Start of Translation: 10-DEC-2019  3:07:47 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Rack pinion assembly.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        Rack pinion assembly.STEP
+! SUMMARY-  Date             2018-08-09T06:32:37
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2013
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    295
+! SUMMARY-  application_context ........................................:     32
+! SUMMARY-  approval ...................................................:     63
+! SUMMARY-  approval_date_time .........................................:     63
+! SUMMARY-  approval_person_organization ...............................:     63
+! SUMMARY-  approval_role ..............................................:     63
+! SUMMARY-  approval_status ............................................:     63
+! SUMMARY-  axis2_placement_3d .........................................:    649
+! SUMMARY-  calendar_date ..............................................:    110
+! SUMMARY-  cartesian_point ............................................:   1613
+! SUMMARY-  cc_design_approval .........................................:     63
+! SUMMARY-  cc_design_date_and_time_assignment .........................:     47
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:     95
+! SUMMARY-  cc_design_security_classification ..........................:     31
+! SUMMARY-  circle .....................................................:    336
+! SUMMARY-  closed_shell ...............................................:     15
+! SUMMARY-  context_dependent_shape_representation .....................:     15
+! SUMMARY-  coordinated_universal_time_offset ..........................:    110
+! SUMMARY-  cylindrical_surface ........................................:    168
+! SUMMARY-  date_and_time ..............................................:    110
+! SUMMARY-  date_time_role .............................................:     47
+! SUMMARY-  design_context .............................................:     16
+! SUMMARY-  direction ..................................................:   1742
+! SUMMARY-  edge_curve .................................................:    780
+! SUMMARY-  edge_loop ..................................................:    326
+! SUMMARY-  face_bound .................................................:     31
+! SUMMARY-  face_outer_bound ...........................................:    295
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     16
+! SUMMARY-  item_defined_transformation ................................:     15
+! SUMMARY-  length_unit_and_si_unit ....................................:     16
+! SUMMARY-  line .......................................................:    444
+! SUMMARY-  local_time .................................................:    110
+! SUMMARY-  manifold_solid_brep ........................................:     15
+! SUMMARY-  mechanical_context .........................................:     16
+! SUMMARY-  next_assembly_usage_occurrence .............................:     15
+! SUMMARY-  organization ...............................................:     16
+! SUMMARY-  oriented_edge ..............................................:   1560
+! SUMMARY-  person .....................................................:     16
+! SUMMARY-  person_and_organization ....................................:    143
+! SUMMARY-  person_and_organization_role ...............................:     95
+! SUMMARY-  plane ......................................................:    127
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     16
+! SUMMARY-  product ....................................................:     16
+! SUMMARY-  product_definition .........................................:     16
+! SUMMARY-  product_definition_formation_with_specified_source .........:     16
+! SUMMARY-  product_definition_shape ...................................:     31
+! SUMMARY-  product_related_product_category ...........................:     16
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     15
+! SUMMARY-  security_classification ....................................:     31
+! SUMMARY-  security_classification_level ..............................:     31
+! SUMMARY-  shape_representation .......................................:     16
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     16
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     16
+! SUMMARY-  vector .....................................................:    444
+! SUMMARY-  vertex_point ...............................................:    520
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          11045
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 10-DEC-2019 3:07:47 PM
+! STATUS-    
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:47 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 8293
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\housing holder370
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:47 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2797
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\base plate3694
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2181
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Part22644
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 5970
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Part17740
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 7949
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\pin 210678
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2471
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\bush13838
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3287
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\housing6814
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:48 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 8955
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\spur gear_ai2_Inch - Spur gear 10DP 25T 20PA 2.52FW ---S25N3.0H2.0L0.03125N4260
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 3955
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\cast iron block9735
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1832
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\heavy duty external retaining ring_am_B27.8M - 3DM1-229197
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 7810
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\rack spur rectangular_ai_Inch - Rack-spur - rectangular 10DP 20PA 1FW 1PH 5L---SAll6263
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 4787
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\bush21025
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 6985
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Part88673
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:49 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2667
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\housing 25199
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:50 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 1489
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\pin 110818
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 10-DEC-2019  3:07:50 PM
+! INFO-     Filing Part ..: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\Rack pinion assembly_step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    15
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             15
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        15
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        15
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 10-DEC-2019  3:07:50 PM
+! INFO-      

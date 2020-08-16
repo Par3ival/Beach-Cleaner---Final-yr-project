@@ -1,0 +1,47 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\robot base mount.prt
+
+
+Writing part: C:\Users\eljw\AppData\Local\Temp\eljw0E1CB586947b.prt
+
+Elapsed time   :    0 minutes,  1 seconds
+Actual CPU Time:    0 minutes,  1 seconds
+
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Mon Dec 09 16:30:40 2019
+INFO-
+STATUS-		Converting C:\Users\eljw\AppData\Local\Temp\eljw0E1CB586947b.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\eljw\AppData\Local\Temp\eljw0E1CB586947b.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	8
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	8
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\eljw\OneDrive - Loughborough University\Robotics project\robot base mount.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	8
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	14
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Mon Dec 09 16:30:40 2019
+INFO-		Translation CPU time: 0 m, 0 sINFO-
