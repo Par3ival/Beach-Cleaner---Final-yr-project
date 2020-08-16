@@ -1,0 +1,7 @@
+#Cameras
+1. Plug in power to camera/into a usb device
+2. Using camera app on windows determine output recieved
+3a. Visual inspection of the device
+3b. if possible focus and unfocus lens to determine damage to lens
+4a. record video using windows camera app make sure to record movement
+4b. and 5. view the propeties of the video and under the details section record resolution and frames per second rounding to nearest whole number

@@ -1,0 +1,6 @@
+#Methodology
+1. Plug in power to microcontroller
+2a. Run existing code on controller or change code to known example
+2b. Download hello world sample code onto controller and verify a change in outcome
+3. Find example code to test peripherals noting working and non working peripherals for all
+4. Visual inspection
