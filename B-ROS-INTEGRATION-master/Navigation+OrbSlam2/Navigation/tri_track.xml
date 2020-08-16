@@ -1,0 +1,44 @@
+<robot name="tri_track">
+<!-- * * * Link Definitions * * * -->
+	<link name="base_link">
+		<visual>
+			<geometry>
+				<box size="0.28 0.255 0.12"/>
+			</geometry>
+		</visual>	
+	</link>
+	
+	<link name="right_wheel_link">  
+		<visual>
+			<origin rpy="1.57075 0 0"/>
+			<geometry>
+				<cylinder length="0.03" radius="0.12"/>
+			</geometry>
+			<material name="black"/>
+		</visual>
+
+	</link>
+
+	<link name="left_wheel_link"> 
+		<visual>
+			<origin rpy="1.57075 0 0"/>
+			<geometry>
+				<cylinder length="0.03" radius="0.12"/>
+			</geometry>
+			<material name="black"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_right_wheel" type="fixed">
+	    	<parent link="base_link" />
+   		<child link="right_wheel_link" />
+    		<origin xyz="-0.12 0.15 0.02" />
+	</joint>
+	
+	<joint name="base_to_left_wheel" type="fixed">
+   		<parent link="base_link" />
+    		<child link="left_wheel_link" />
+    		<origin xyz="-0.12 -0.15 0.02" />
+	</joint>
+ 
+</robot>

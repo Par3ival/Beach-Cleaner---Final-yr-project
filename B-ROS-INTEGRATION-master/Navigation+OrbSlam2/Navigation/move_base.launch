@@ -1,0 +1,24 @@
+<launch>
+
+	<master auto="start"/>
+<!--run the map server-->
+<remap from="map" to="/octomap/projected_map"/>
+<arg name="observation_sources" value="point_cloud_sensorA point_cloud_sensorB"/>
+
+ <!--- Run AMCL -->
+<!--<include file="$(find amcl)/examples/amcl_omni.launch" /> -->
+
+   <node pkg="move_base" type="move_base" respawn="true" name="move_base" output="screen">
+    <param name="base_global_planner" value="navfn/NavfnROS"/>
+    <rosparam file="$(find my_robot_name_2dnav)/costmap_common_params_2d.yaml" command="load" ns="global_costmap" /> 
+    <rosparam file="$(find my_robot_name_2dnav)/costmap_common_params_2d.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find my_robot_name_2dnav)/local_costmap_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find my_robot_name_2dnav)/global_costmap_params.yaml" command="load" ns="global_costmap"/>
+    <rosparam file="$(find my_robot_name_2dnav)/base_local_planner_params.yaml" command="load" />
+    <param name="global_costmap/obstacle_layer/observation_sources" value="$(arg observation_sources)"/>
+    <param name="local_costmap/obstacle_layer/observation_sources" value="$(arg observation_sources)"/>
+ </node>
+
+
+</launch> 
+
